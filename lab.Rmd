@@ -1,7 +1,7 @@
 ---
 title: "BDCD Business Analytics Lab exercise"
-author: "Prof Di Cook, with Stephanie Kobakian, Stuart Lee, Mitch O'Hara-Wild"
-date: "Econometrics & Bus Stat, Monash, Clayton campus, 20/4/2017"
+author: "Prof Di Cook, with Steph Kobakian, Stuart Lee, Mitch O'Hara-Wild"
+date: "Econometrics & Bus Stat, Monash, Clayton campus, 5/4/2018"
 output:
   tufte::tufte_html: default
   tufte::tufte_handout:
@@ -24,6 +24,8 @@ Business analytics involves mathematics and computing. This lab exercise has a l
 Sports provide a lot of statistics about players and teams. In this exercise we are going to look at the statistics collected for the Women's Australian Rules Football leagues over the past two years. We have stats for players and for teams. These are averages across all the games: Kicks, Handballs, Dispatch efficiency (%), Marks, Frees_Agst, Goals, Behinds, Goal_assists, Time_On_Ground. 
 
 Materials for the workshop can be downloaded from [https://github.com/BDCD18/BusAn](https://github.com/BDCD18/BusAn).
+
+Data collected from [http://www.afl.com.au/womens/matches/stats](http://www.afl.com.au/womens/matches/stats).
 
 ## Exercise 1: Background work
 
