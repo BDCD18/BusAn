@@ -21,8 +21,9 @@ knitr::opts_chunk$set(
 
 Business analytics involves mathematics and computing. This lab exercise has a little of both. For the coding part, you will want to copy, pull apart and put together again. 
 
-Sports provide a lot of statistics about players and teams. In this exercise we are going to look at the statistics collected for the Women's Australian Rules Football leagues over the past two years. We have stats for players and for teams. These are averages across all the games: Kicks, Handballs, Dispatch efficiency (%), Marks, Frees_Agst, Goals, Behinds, Goal_assists,
-Time_On_Ground. 
+Sports provide a lot of statistics about players and teams. In this exercise we are going to look at the statistics collected for the Women's Australian Rules Football leagues over the past two years. We have stats for players and for teams. These are averages across all the games: Kicks, Handballs, Dispatch efficiency (%), Marks, Frees_Agst, Goals, Behinds, Goal_assists, Time_On_Ground. 
+
+Materials for the workshop can be downloaded from [https://github.com/BDCD18/BusAn](https://github.com/BDCD18/BusAn).
 
 ## Exercise 1: Background work
 
