@@ -8,7 +8,6 @@
 #
 
 library(shiny)
-library(shinydashboard)
 library(shinythemes)
 library(tidyverse)
 library(plotly)
@@ -48,7 +47,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                sidebarLayout(
                  sidebarPanel(
                    checkboxGroupInput('dotvars', "Variables to plot:", realvars, realvars[1:3]),
-                   selectInput('label', "Label", catvars),
+                   selectInput('label_dotplot', "Label", catvars),
                    checkboxInput('jitter', "Add jitter", FALSE),
                    checkboxGroupInput('clr', "Colour by club:", clubs, NA)
                  ),
@@ -116,7 +115,7 @@ server <- function(input, output) {
     # readability, because we can get the values from mouse over
     p <- ggplot(players_long,
                 aes_string(x = "1", y = "value",
-                           label = input$label)) +
+                           label = input$label_dotplot)) +
       facet_wrap(~stat+Year, scales="free",
                  ncol=4,
                  labeller = labeller(.multi_line = FALSE,
