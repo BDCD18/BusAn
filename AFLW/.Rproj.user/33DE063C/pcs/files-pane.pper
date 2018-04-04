@@ -1,0 +1,9 @@
+{
+    "path" : "~/Monash.business/bigdataday18/AFLW",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
